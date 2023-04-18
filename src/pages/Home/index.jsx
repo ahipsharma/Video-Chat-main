@@ -1,5 +1,6 @@
 import React, {useState, useCallback} from 'react'
 import {useNavigate} from 'react-router-dom'
+import Logo from '../images/Logo.png'
 import './index.css'
 
 const HomePage = () => {
@@ -11,6 +12,7 @@ const HomePage = () => {
     navigate(`/room/${value}`)
   }, [navigate, value])
   return <div>
+    <img src={Logo} alt="Logo" className="logo"/>
     <input 
       value={value} 
       onChange={(e) => setValue(e.target.value)} 
