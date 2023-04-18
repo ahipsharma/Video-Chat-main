@@ -1,5 +1,5 @@
 body {
-    background-color: #e6f2ff;
+    background: linear-gradient(90deg, rgba(244,219,255,1) 0%, rgba(220,154,255,0.7651435574229692) 50%, rgba(225,148,255,0.8323704481792717) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
